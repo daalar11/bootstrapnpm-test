@@ -8,7 +8,7 @@ function buildStlyes2(){
         
 }
 function copy(){
-    return gulp.src('./node_modules/**/*.js')
+    return gulp.src('./node_modules/bootstrap/dist/js/*')
         .pipe(gulp.dest('./js'))
         
 }
